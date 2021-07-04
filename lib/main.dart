@@ -87,7 +87,7 @@ class _MapWidgetState extends State<MapWidget> {
     List<LatLng> polylineCoordinates = [];
 
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyD2pHID7BXWg38sq6tqHKOHVvGQpLw-qWY",
+      "YOUR_API-KEY",
       PointLatLng(currentPostion.latitude, currentPostion.longitude),
       PointLatLng(31.2252, 29.9419),
       travelMode: TravelMode.driving,
